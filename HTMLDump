@@ -231,6 +231,17 @@
     					</div>
     				</div>
     			</div>
+    			<div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Extra Resource</b></span>
+    			<br>
+    		<fieldset class="repeating_Resource">
+    				<span class="sheet-table-data"><input type="text" name="attr_Resource-name" title="Resource-name" value="Name"/></span>
+    				<span class="sheet-table-data"><input type="number" name="attr_Resource" title="Resource-current" value="0"/></span>
+    				<span class="sheet-table-data"> / </span>
+                    <span class="sheet-table-data"><input type="number" name="attr_Resource-base" title="Resource-base" value="0" disabled/></span>
+                    <span class="sheet-table-data"><input type="text" name="attr_Resource-souce" title="Resource-source-name" value="Source?"/></span>
+                    </fieldset>
+    		</div>
     		</div>
     		<br>
             <div class="sheet-section-defenses" style="border-style:solid;border-width:2px;">
@@ -401,7 +412,7 @@
             <div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
             	<span class="sheet-table-data"><b>Advanced Skills</b></span>
     			<br>
-    			<fieldset class="repeating_attacks">
+    			<fieldset class="repeating_adv-skill">
     				<span class="sheet-table-data"><button type="roll" name="roll_adv-skill" title="repeating_attack_X_adv-skill (NOT USABLE IN MACROS)" value="@{who-skill} @{adv-skill-name} check of: [[@{die_type} + @{adv-skill}]]"></button></span>
     				<span class="sheet-table-data"><input type="text" name="attr_adv-skill-name" title="adv-skill-name" value="Name"/></span>
     				<span class="sheet-table-data"><input type="number" name="attr_adv-skill" title="adv-skill-total" value="((floor((@{adv-skill-ability})/2)) + @{adv-skill-ranks} + @{adv-skill-other})" disabled/></span>
@@ -424,7 +435,7 @@
             <div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
             	<span class="sheet-table-data"><b>Weapon Exp</b></span>
     			<br>
-    			<fieldset class="repeating_attacks">
+    			<fieldset class="repeating_Weapon-Exp">
     				<span class="sheet-table-data"><input type="text" name="attr_wep-exp-name" title="wep-exp-name" value="Name"/></span>
     				<span class="sheet-table-data"><select name="attr_wep-exp-training" title="wep-exp-training">
     				                                                        <option value="Select one" selected>Select one</option>
@@ -1426,39 +1437,38 @@
     </div>
     <br>
     <div class="sheet-section-complications" style="border-style:solid;border-width:2px;">
-    	<span class="sheet-table-data"><b>Motivations & Complications</b></span>
+    	<span class="sheet-table-data"><b>Weapons and Items</b></span>
 		<br>
 		<fieldset class="repeating_complication">
 			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_complication_X_name" value="Name"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_rank" title="repeating_complication_X_rank" value="Rank"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_Weight" title="repeating_complication_X_Weight" value="Weight"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_Mightt" title="repeating_complication_X_Might" value="Might"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_HitChance" title="repeating_complication_X_HitChance" value="Hit Chance"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_CritChance" title="repeating_complication_X_CritChance" value="Crit Chance"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_Range" title="repeating_complication_X_Range" value="Range"/></span>
+			<span class="sheet-table-data"><input type="text" name="attr_WepExp" title="repeating_complication_X_WepExp" value="Wep Exp"/></span>
 			<textarea name="attr_description" title="repeating_complication_X_description" style="height:90px;">Description</textarea>
 		</fieldset>
 	</div>
 </div>
 
 <div class="sheet-tab-content sheet-tab2">
-    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab11" value="1" title="Powers & Devices"/>
-        <span class="sheet-tab sheet-tab11">Powers & Devices</span>
-    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab12" value="2" title="Advantages"/>
-        <span class="sheet-tab sheet-tab12">Advantages</span>
-    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab13" value="3" title="Equipment"/>
-        <span class="sheet-tab sheet-tab13">Equipment</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab11" value="1" title="Abilities"/>
+        <span class="sheet-tab sheet-tab11">Abilities</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab12" value="2" title="Techniques"/>
+        <span class="sheet-tab sheet-tab12">Techniques</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab13" value="3" title="Spells"/>
+        <span class="sheet-tab sheet-tab13">Spells</span>
     <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab99" value="99" title="All" checked/>
         <span class="sheet-tab sheet-tab99">All</span>
         
     <div class="sheet-tab-content sheet-tab11 sheet-tab99">
         <div class="sheet-section-powers" style="border-style:solid;border-width:2px;">
-        	<span class="sheet-table-data"><b>Powers & Devices</b></span>
-    			<span class="sheet-table-header" style="width:60%;"></span>
-    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Ranks</span>
-    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Points Per Rank</span>
-    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Misc</span>
-    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Total</span>
-    		<fieldset class="repeating_power">
-    			<span class="sheet-table-data" style="width:100%"><input type="text" name="attr_name" title="repeating_power_X_name" value="Name"/></span>
-    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ranks" title="repeating_power_X_ranks" value="0"/></span>
-    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_points-per-rank" title="repeating_power_X_points-per-rank" value="0"/></span>
-    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_misc-points" title="repeating_power_X_misc-points" value="0"/></span>
-    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_total-cost" title="repeating_power_X_total-cost" value="((@{ranks} * @{points-per-rank}) + @{misc-points})" disabled/></span>
+        	<span class="sheet-table-data"><b>Abilities</b></span>
+    		<fieldset class="repeating_Abilities">
+    		    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Abilities" title="Abilities" value="@&{template:default} {{name=*** @{name} ***}} {{*Description:*=@{description}}}"></button></span>
+    			<span class="sheet-table-data" style="width:95%"><input type="text" name="attr_name" title="repeating_power_X_name" value="Name"/></span>
     			<textarea name="attr_description" title="repeating_power_X_description" style="height:90px;">Description</textarea>
     			<hr>
     		</fieldset>
@@ -1467,9 +1477,9 @@
     </div>
     <div class="sheet-tab-content sheet-tab12 sheet-tab99">
         <div class="sheet-section-advantages" style="border-style:solid;border-width:2px;">
-    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Advantages</b></span>
+    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Techniques/Notes</b></span>
     		<fieldset class="repeating_advantage">
-    			<span class="sheet-table-data"><input type="number" name="attr_ranks" title="repeating_advantage_X_ranks" value="0"/></span>
+    		    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Abilities" title="Abilities" value="@&{template:default} {{name=*** @{name} ***}} {{*Description:*=@{description}}}"></button></span>
     			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_advantage_X_name" value="Name"/></span>
     			<textarea name="attr_description" title="repeating_advantage_X_description" style="height:90px;">Description</textarea>
     			<hr>
@@ -1479,9 +1489,10 @@
     </div>
     <div class="sheet-tab-content sheet-tab13 sheet-tab99">
     	<div class="sheet-section-equipment" style="border-style:solid;border-width:2px;">
-    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Equipment, Vehicles, and Headquarters</b></span>
+    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Spells</b></span>
     		<fieldset class="repeating_equipment">
-    			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_equipment_X_name" value="Name"/></span>
+    		    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Abilities" title="Abilities" value="@&{template:default} {{name=*** @{name} ***}} {{*Description:*=@{description}}}"></button></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_name" title="name" value="Name"/></span>
     			<textarea name="attr_description" title="repeating_equipment_X_description" style="height:90px;">Description</textarea>
     			<hr>
     		</fieldset>
