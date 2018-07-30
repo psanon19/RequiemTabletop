@@ -1,0 +1,1490 @@
+<div class="sheet-row" style="text-align:center;">
+    <img src="https://i.imgur.com/Zu0SvHr.png" style="max-height: 100px;" title="Requiem Tabletop Character Sheet"/>
+    <br>
+    <div class="sheet-section-details" style="border-style:solid;border-width:2px;">
+		<div class="sheet-table">
+			<div class="sheet-table-row">
+				<span class="sheet-table-data"><b>Player Name:</b></span>
+				<span class="sheet-table-data"><input type="text" name="attr_player_name" title="player_name"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Character Name:</b></span>
+				<span class="sheet-table-data"><input type="text" name="attr_character-name" title="character-name"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><input type="radio" name="attr_identity-status" title="identity-status" value="0"/><b> PC</b></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><input type="radio" name="attr_identity-status" title="identity-status" value="1"/><b> NPC</b></span>
+			</div>
+		</div>
+		<div class="sheet-table">
+			<div class="sheet-table-row">
+				<span class="sheet-table-data"><b>Race:</b></span>
+				<span class="sheet-table-data"><select style="width:100px" type="text" name="attr_race" title="race" value="none"/>
+				<option value="select">Select One</option>
+				<option value="abaddon">Abaddon</option>
+                <option value="akimoto">Akimoto</option>
+                <option value="arachniea">Arachniea</option>
+                <option value="bovidea">Bovidea</option>
+                <option value="cervidae">Cervidae</option>
+                <option value="chthon">Chthon</option>
+                <option value="crag">Crag Dwellers</option>
+                <option value="dycuus">Dycuus</option>
+                <option value="etalin">E'talin</option>
+                <option value="felia">Felia</option>
+                <option value="halfOrc">Half-Orc</option>
+                <option value="human">Human</option>
+                <option value="inuyakin">Inuyakin</option>
+                <option value="jrigori">Jrigori</option>
+                <option value="keikeiora">Keikeiora</option>
+                <option value="mastodon">Mastodon</option>
+                <option value="nepherite">Nepherite</option>
+                <option value="ruKiv">Ru'kiv</option>
+                <option value="seraphim">Seraphim</option>
+                <option value="sermata">Sermata</option>
+                <option value="shaytan">Shaytan</option>
+                <option value="targon">Targon</option>
+                <option value="tauri">Tauri</option>
+                <option value="ursaring">Ursaring</option>
+                <option value="verve">Verve</option>
+                <option value="xeith">Xeith</option>
+                <option value="zryt">Zryt</option>
+                <option value="blank">  </option>
+                </span>
+				<span class="sheet-table-data"><b>Level:</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_class" title="class" value="0"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Main Class:</b></span>
+				<span class="sheet-table-data"><input style="width:100px;" type="text" name="attr_size" title="size"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Birth Month:</b></span>
+				<span class="sheet-table-data"><select style="width:100px;" type="text" name="attr_birthMonth" title="birthMonth"/>
+				<option value="select">Select One</option>
+				<option value="oblate">Oblate</option>
+                <option value="earlate">Earlate</option>
+                <option value="irelate">Irelate</option>
+                <option value="terra">Terra</option>
+                <option value="firra">Firra</option>
+                <option value="aqurra">Aqurra</option>
+                <option value="raydiant">Raydiant</option>
+                <option value="elecdiant">Elecdiant</option>
+                <option value="cyclodiant">Cyclodiant</option>
+                <option value="ebber">Ebber</option>
+                <option value="obber">Obber</option>
+                <option value="ibber">Ibber</option>
+                <option value="blank1">  </option>
+				</span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Multi Class Level:</b></span>
+				<span class="sheet-table-data"><input  type="number" name="attr_multiClassLevel" title="multiClassLevel"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Multi Class:</b></span>
+				<span class="sheet-table-data"><input style="width:100px;" type="text" name="attr_multiClassName" title="multiClassName"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Spell Points:</b></span>
+				<span class="sheet-table-data"><input  type="number" name="attr_spellPoints" title="spellPoints"/></span>
+			</div>
+		</div>
+		<div class="sheet-table">
+			<div class="sheet-table-row">
+			    <span class="sheet-table-data"><b>Skill Proficiency:</b></span>
+				<span class="sheet-table-data"><input type="text" name="attr_skillProficiency" title="skillProficiency"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Mentalities:</b></span>
+				<span class="sheet-table-data"><input type="text" name="attr_mentalities" title="mentalities"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Current Health:</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_currentHP" title="currentHP"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Max Health:</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_maxCHP" title="maxHP"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+			</div>
+		</div>
+		<div class="sheet-table">
+			<div class="sheet-table-row">
+				<span class="sheet-table-data"><b>Skill Point Totals:</b></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Proficent Skills</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_skill-points" title="skill-points" value="0"/></span>
+				<span class="sheet-table-data"><b>+</b></span>
+				<span class="sheet-table-data"><b>Non Proficent Skills</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_nonprf-skill-points" title="nonprf-skill-points" value="0"/></span>
+				<span class="sheet-table-data"><b>+</b></span>
+				<span class="sheet-table-data"><b>Advanced Skills</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_advancedSkill-points" title="advancedSkill-points" value="0"/></span>
+				<span class="sheet-table-data"><b>+</b></span>
+				<span class="sheet-table-data"><b>Techniques</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_techniques-points" title="techniques-points" value="0"/></span>
+			    <span class="sheet-table-data"><b>=</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_total-skill-points" title="attr_total-skill-points" value="(((@{advancedSkill-points})*20) + ((@{techniques-points})*10) + @{skill-points} + ((@{nonprf-skill-points})*2))" disabled/></span>
+                <span class="sheet-table-data"><b>/</b></span>
+                <span class="sheet-table-data"><input type="number" name="attr_max-skill-points" title="attr_max-skill-points" value="(@{starting-skill-points} + @{skill-points-gained})" disabled/><b> *</b></span>
+			</div>
+		</div>
+	</div>
+</div>
+<span class="sheet-table-data" style="width: 100%; font-size: 10px; font-family: courier;"><b>* Total Skill Points Earned = Starting Skill Points + Skill Points Gained</b></span>
+<br>
+
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab1" value="1" title="Stats & Skills" checked="checked"/>
+    <span class="sheet-tab sheet-tab1">Attributes &amp; Skills</span>
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab2" value="2" title="Powers, Advantages & Equipment"/>
+    <span class="sheet-tab sheet-tab2">Abilities, Spells &amp; Others</span>
+
+<div class="sheet-tab-content sheet-tab1">
+    <div class="sheet-2colrow">
+    	<div class="sheet-col">
+    		<div class="sheet-table">
+    			<div class="sheet-table-row">
+    				<div class="sheet-table-data">
+    					<div class="sheet-section-abilities" style="border-style:solid;border-width:2px;">
+    						<div class="sheet-table">
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-header" style="font-size:10px;">Attributes</span>
+    								<span class="sheet-table-header" style="font-size:10px;">Current</span>
+    								<span class="sheet-table-header" style="font-size:10px;">Base</span>
+    								<span class="sheet-table-header" style="font-size:10px;">Misc</span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_strength-roll" title="%{strength-roll}" value="@{who-stat} Strength Check: [[@{die_type}+(@{strength-total})]]">Strength</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_strength-total" title="strength-total" value="(@{strength} + @{strength-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_strength" title="strength" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_strength-misc" title="strength-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_magic-roll" title="%{magic-roll}" value="@{who-stat} Magic Check: [[@{die_type}+(@{magic-total})]]">Magic</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_magic-total" title="magic-total" value="(@{magic} + @{magic-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_magic" title="agility" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_magic-misc" title="magicy-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_skill-roll" title="%{skill-roll}" value="@{who-stat} Skill Check: [[@{die_type}+(@{skill-total})]]">Skill</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_skill-total" title="skill-total" value="(@{skill} + @{skill-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_skill" title="skill" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_skill-misc" title="skill-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_speed-roll" title="%{speed-roll}" value="@{who-stat} Speed Check: [[@{die_type}+(@{speed-total})]]">Speed</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_speed-total" title="speed-total" value="(@{speed} + @{speed-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_speed" title="speed" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_speed-misc" title="speed-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_faith-roll" title="%{faith-roll}" value="@{who-stat} Faith Check: [[@{die_type}+(@{faith-total})]]">Faith</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_faith-total" title="faith-total" value="(@{faith} + @{faith-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_faith" title="faith" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_faith-misc" title="faith-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_defense-roll" title="%{defense-roll}" value="@{who-stat} Defense Check: [[@{die_type}+(@{defense-total})]]">Defense</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_defense-total" title="defense-total" value="(@{defense} + @{defense-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_defense" title="defense" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_defense-misc" title="defense-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_Resistance-roll" title="%{Resistance-roll}" value="@{who-stat} Resistance Check: [[@{die_type}+(@{Resistance-total})]]">Resistance</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Resistance-total" title="Resistance-total" value="(@{Resistance} + @{Resistance-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Resistance" title="Resistance" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Resistance-misc" title="Resistance-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_Constitution-roll" title="%{Constitution-roll}" value="@{who-stat} Constitution Check: [[@{die_type}+(@{Constitution-total})]]">Constitution</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Constitution-total" title="Constitution-total" value="(@{Constitution} + @{Constitution-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Constitution" title="Constitution" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Constitution-misc" title="Constitution-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_Movement-roll" title="%{Movement-roll}" value="@{who-stat} Movement is: [[(@{Movement-total})]]">Movement</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Movement-total" title="Movement-total" value="(@{Movement} + @{Movement-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Movement" title="Movement" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Movement-misc" title="Movement-misc" value="0"/></span>
+    							</div>
+    							<div class="sheet-table-row">
+    								<span class="sheet-table-data"><button type="roll" name="roll_Charisma-roll" title="%{Charisma-roll}" value="@{who-stat} Charisma Check: [[@{die_type}+(@{Charisma-total})]]">Charisma</button></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Charisma-total" title="Charisma-total" value="(@{Charisma} + @{Charisma-misc})" disabled/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Charisma" title="Charisma" value="0"/></span>
+    								<span class="sheet-table-data"><input type="number" name="attr_Charisma-misc" title="Charisma-misc" value="0"/></span>
+    							</div>
+    							</div>
+    					</div>
+    				</div>
+    			</div>
+    			<br>
+    			<div class="sheet-table-row">
+    				<div class="sheet-table-data">
+    					<div class="sheet-section-points" style="border-style:solid;border-width:2px;">
+    						<div class="sheet-table">
+        						<div class="sheet-table-row">
+                                    <span class="sheet-table-header" style="font-size:9px; width:25%;">Starting Skill Points</span>
+            						<span class="sheet-table-header" style="font-size:9px; width:25%;">Skill Points Earned</span>
+                                    <span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
+        							<span class="sheet-table-header" style="font-size:10px; width:25%;">Current Energy</span>
+        							<span class="sheet-table-header" style="font-size:10px; width:25%;">Max Energy</span>
+        						</div>
+        						<div class="sheet-table-row">
+                                    <span class="sheet-table-data"><input type="number" name="attr_starting-skill-points" title="starting-skill-points" value="0"/></span>
+            						<span class="sheet-table-data"><input type="number" name="attr_skill-points-gained" title="skill-points-gained" value="0"/></span>
+                                    <span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
+        							<span class="sheet-table-data"><input type="number" name="attr_current-energy" title="current-energy" value="0"/></span>
+        							<span class="sheet-table-data"><input type="number" name="attr_max-energy" title="max-energy" value="0"/></span>
+        						</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<br>
+            <div class="sheet-section-defenses" style="border-style:solid;border-width:2px;">
+        		<span class="sheet-table-data"><b>Character Stats</b></span>
+    			<div class="sheet-table">
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-header"></span>
+    					<span class="sheet-table-header" style="font-size:10px;">Name</span>
+    					<span class="sheet-table-header">&nbsp;</span>
+    					<span class="sheet-table-header" style="font-size:10px;">Attribute Name</span>
+    					<span class="sheet-table-header">&nbsp;</span>
+    					<span class="sheet-table-header" style="font-size:10px;">Total</span>
+    					<span class="sheet-table-header">=</span>
+    					<span class="sheet-table-header" style="font-size:10px;">Input</span>
+    					<span class="sheet-table-header">+</span>
+    					<span class="sheet-table-header" style="font-size:10px;">Attribute</span>
+    					<span class="sheet-table-header">+</span>
+    					<span class="sheet-table-header" style="font-size:10px;">Circum</span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_AttackSpeed" title="AttackSpeed" value="@{who-combat} Has an Attack Speed of: [[@{attackSpeed-total}]]"></button></span>
+    					<span class="sheet-table-data"><b>Attack Speed</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>ATS</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_attackSpeed-total" title="attackSpeed" value="(@{attackSpeed-points} + @{attackSpeed-ability} + @{attackSpeed-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_attackSpeed-points" title="attackSpeed-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><select name="attr_attackSpeed-ability" title="attackSpeed-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_attackSpeed-misc" title="attackSpeed-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_HitChance" title="HitChance" value="@{who-combat} Has a Hit Chance of: [[@{hitChance}]]"></button></span>
+    					<span class="sheet-table-data"><b>Hit Chance</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>SKL/FTH</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_hitChance" title="hitChance-total" value="(@{skillFaith-points} + @{hitChance-ability} + @{skillFaith-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_skillFaith-points" title="parry-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_hitChance-ability" title="skillFaith" value="(ceil(@{Skill-total}*2))+(ceil(@{Faith-total}/2))" disabled/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_skillFaith-misc" title="skillFaith-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_Evade" title="Evade" value="@{who-combat} Has an Evade of: [[@{evade}]]"></button></span>
+    					<span class="sheet-table-data"><b>Evade</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>ATS/FTH</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_evade" title="evade" value="(@{evade-points} + @{evade-ability} + @{evade-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_evade-points" title="fortitude-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_evade-ability" title="speedFaith" value="(ceil(@{attackSpeed-total}*2))+(ceil(@{Faith-total}))" disabled/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_evade-misc" title="fortitude-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_CriticalEvade" title="CriticalEvade" value="@{who-combat} critical evade is: [[@{criticalEvade-total}]]"></button></span>
+    					<span class="sheet-table-data"><b>Critical Evade</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>STA</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalEvade-total" title="criticalEvade" value="(@{criticalEvade-points} + @{faith-total} + @{criticalEvade-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalEvade-points" title="criticalEvade-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalEvade-ability" title="faith" value="@{faith-total}" disabled/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalEvade-misc" title="criticalEvade-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_CriticalChance" title="CriticalChance" value="@{who-combat} has a Critical Chance: [[@{criticalChance}]]"></button></span>
+    					<span class="sheet-table-data"><b>Critical Chance</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>SKL</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalChance" title="criticalChance" value="(@{criticalChance-points} + (ceil(@{criticalChance-ability}/2)) + @{criticalChance-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalChance-points" title="will-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><select name="attr_criticalChance-ability" title="criticalChance-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_criticalChance-misc" title="will-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_carryWeight" title="carryWeight" value="@{who-combat} is carrying [[@{carrWeight}]] weight, and has a Max Carry Weight of: [[@{carryWeight-ability}]] weight."></button></span>
+    					<span class="sheet-table-data"><b>Carry Weight</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>STR </b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_carryWeight" title="carryWeight" value="(@{carryWeight-points} + @{carryWeight-ability} + @{carryWeight-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_carryWeight-points" title="will-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><select name="attr_carryWeight-ability" title="carryWeight-ability">
+                                        									<option value="(@{strength-total})*5" selected>Normal Carry Weight</option>
+                                        									<option value="(@{strength-total})*9">Bovidea</option>
+                                        									<option value="(@{constitution-total})*5">Crag</option>
+                                        									<option value="(@{strength-total})*7">Dycuus and Half-Orc</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_carryWeight-misc" title="will-misc" value="0"/></span>
+    				</div>
+    				<input type="hidden" name="attr_total-defense-points" value="(@{dodge-points} + @{parry-points} + @{fortitude-points} + @{toughness-points} + @{will-points})" disabled/>
+    			</div>
+    		</div>
+            <br>
+            <div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Attacks or Effects</b></span>
+    			<br>
+    			<span class="sheet-table-data"><button type="roll" name="roll_Initiative" title="Initiative" value="@{who-initiative} rolls for initiative!&#x00A;@{who-initiative} Result: [[@{die_type} + @{initiative} &amp;{tracker}]]"></button></span>
+    			<span class="sheet-table-data"><b>Initiative:</b></span>
+    			<span class="sheet-table-data"><input type="number" name="attr_initiative" title="initiative" value="(@{initiative-misc} + @{attackSpeed-total})" disabled/></span>
+    			<span class="sheet-table-data"><b>=</b></span>
+    			<span class="sheet-table-data"><input type="number" name="attr_initiative-misc" title="initiative-misc" value="0"/></span>
+    			<span class="sheet-table-data"><b>+</b></span>
+    			<span class="sheet-table-data"><input type="number" name="attr_initiative-ability" title="agility" value="@{attackSpeed-total}" disabled/></span>
+    			<br>
+    			<fieldset class="repeating_attacks">
+    				<span class="sheet-table-data"><button type="roll" name="roll_attack-roll" title="repeating_attack_X_attack-roll (NOT USABLE IN MACROS)" value="@{macro-text}"></button></span>
+    				<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_attack_X_name" value="Name"/></span>
+    				<span class="sheet-table-data"><select name="attr_attack-ability" title="repeating_attack_X_attack-ability">
+                                        									<option value="(0)" selected>Select One</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+                    <span class="sheet-table-data"><input type="number" name="attr_wepMight" title="repeating_attack_X_wepMight" value="0"/></span>
+    				<span class="sheet-table-data"><input type="number" name="attr_bonus" title="repeating_attack_X_bonus" value="0"/></span>
+    				<span class="sheet-table-data"><input type="text" name="attr_effect" title="repeating_attack_X_effect" value="Effect"/></span>
+    				<span style="font-size:10px;"><b>Show Macro Text?&nbsp;&nbsp;</b></span>
+    				<input type="checkbox" class="sheet-macro-show" title="repeating_attacks_X_macro-text-show" name="attr_macro-text-show" value="1" style="opacity:0;width: 16px;height: 16px;position: relative;top: 5px;left: 6px;margin: -10px;cursor: pointer;z-index: 1;"/><span></span>
+    				<textarea class="sheet-macro" title="repeating_attacks_X_macro-text" name="attr_macro-text">@&{template:default} {{name=*** @{name} ***}} {{*Attack:*=[[1d100]]}} {{*Hit Chance*:=[[@{hitChance}-?{Modifier|0})/?{Hit location multiplier|1})))]]}}  {{*Crit Chance:*=[[@{criticalChance}]]}} {{*Physical Damage per hit:*= [[(@{attack-ability}+(@{bonus})+(@{wepMight}))*?{Hit location multiplier|1})]]}} {{*Called shot?:* = ?{Called shot location|No}}} {{*Attack Effect:* = @{effect}}}</textarea>
+    			</fieldset>
+    		</div>
+            <br>
+            <div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Advanced Skills</b></span>
+    			<br>
+    			<fieldset class="repeating_attacks">
+    				<span class="sheet-table-data"><button type="roll" name="roll_adv-skill" title="repeating_attack_X_adv-skill (NOT USABLE IN MACROS)" value="@{who-skill} @{adv-skill-name} check of: [[@{die_type} + @{adv-skill}]]"></button></span>
+    				<span class="sheet-table-data"><input type="text" name="attr_adv-skill-name" title="adv-skill-name" value="Name"/></span>
+    				<span class="sheet-table-data"><input type="number" name="attr_adv-skill" title="adv-skill-total" value="((floor((@{adv-skill-ability})/2)) + @{adv-skill-ranks} + @{adv-skill-other})" disabled/></span>
+    				<span class="sheet-table-data"><select name="attr_adv-skill-ability" title="adv-skill-Att-bonus">
+                                        									<option value="(0)" selected>Select One</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+                    <span class="sheet-table-data"><input type="number" name="attr_adv-skill-ranks" title="adv-skill-ranks" value="0"/></span>
+    				<span class="sheet-table-data"><input type="number" name="attr_adv-skill-other" title="adv-skill-circumstance" value="0"/></span>
+                    </fieldset>
+    		</div>
+            <br>
+            <div class="sheet-section-offense" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Weapon Exp</b></span>
+    			<br>
+    			<fieldset class="repeating_attacks">
+    				<span class="sheet-table-data"><input type="text" name="attr_wep-exp-name" title="wep-exp-name" value="Name"/></span>
+    				<span class="sheet-table-data"><select name="attr_wep-exp-training" title="wep-exp-training">
+    				                                                        <option value="Select one" selected>Select one</option>
+                                        									<option value="Self Taught">Self Taught</option>
+                                        									<option value="Trained">Trained</option>
+                    </select>
+    				</span>
+    				<span class="sheet-table-data"><input type="number" name="attr_wep-exp" title="wep-exp-current" value="0"/></span>
+    				<span class="sheet-table-data"> / </span>
+                    <span class="sheet-table-data"><input type="number" name="attr_wep-exp-base" title="wep-exp-base" value="100" disabled/></span>
+    				<span class="sheet-table-data"><select name="attr_wep-exp-rank" title="wep-exp-rank">
+    				                                                        <option value="E" selected>E</option>
+                                        									<option value="D">D</option>
+                                        									<option value="C">C</option>
+                                                                            <option value="B">B</option>
+                                                                            <option value="A">A</option>
+                                                                            <option value="S">S</option>
+                                                                            <option value="SS">SS</option>
+                                                                            <option value="SSS">SSS</option>
+                                                                            <option value="Master">Master</option>
+                    </select>
+    				</span>
+                    </fieldset>
+    		</div>
+            <div class="sheet-section-notes" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Weapon EXP</b></span>
+    			<br>
+    			<textarea style="height:100px" name="attr_notes" title="notes"></textarea><br>
+    		</div>
+    	</div>
+        <div class="sheet-col">
+            <div class="sheet-section-skills" style="border-style:solid;border-width:2px;">
+        		<div class="sheet-table">
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-header" style="width:5%;"></span>
+    					<span class="sheet-table-header" style="width:75%; font-size:10px;">Base Skill Names</span>
+                        <span class="sheet-table-header" style="width:5%; font-size:10px;">Attribute</span>
+    					<span class="sheet-table-header" style="width:5%; font-size:10px;">Total</span>
+    					<span class="sheet-table-header" style="width:5%; font-size:10px;">Att BNS</span>
+    					<span class="sheet-table-header" style="width:5%; font-size:10px;">Ranks</span>
+    					<span class="sheet-table-header" style="width:5%; font-size:10px;">Other</span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Appraise-Check" title="Appraise-Check" value="@{who-skill} Appraise check of: [[@{die_type} + @{Appraise}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Appraise</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Appraise" title="Appraise" value="((floor((@{Appraise-ability})/2)) + @{Appraise-ranks} + @{Appraise-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Appraise-ability" title="Appraise-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Appraise-ranks" title="Appraise-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Appraise-other" title="Appraise-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Balance-Check" title="Balance-Check" value="@{who-skill} Balance check: [[@{die_type} + @{Balance}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Balance*</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Balance" title="Balance" value="((floor((@{Balance-ability})/2)) + @{Balance-ranks} + @{Balance-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Balance-ability" title="Balance-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Balance-ranks" title="Balance-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Balance-other" title="Balance-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Bluff-Check" title="Bluff-Check" value="@{who-skill} Bluff check: [[@{die_type} + @{Bluff}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Bluff</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Bluff" title="Bluff" value="((floor((@{Bluff-ability})/2)) + @{Bluff-ranks} + @{Bluff-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Bluff-ability" title="Bluff-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Bluff-ranks" title="Bluff-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Bluff-other" title="Bluff-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_ConPen-Check" title="ConPen-Check" value="@{who-skill} has a Constitution Penalty: [[@{ConPen}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Constitution Penalty</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><b>CON</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ConPen" title="ConPen" value="( @{ConPen-ranks} + @{ConPen-other} + @{attackSpeed-points})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ConPen-ability" title="ConPen-ability" value="@{Constitution-total}" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ConPen-ranks" title="ConPen-ranks" value="0"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ConPen-other" title="ConPen-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Climb-Check" title="Climb-Check" value="@{who-skill} rolls a Climb check: [[@{Climb}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Climb*</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Climb" title="Climb" value="((floor((@{Climb-ability})/2)) + @{Climb-ranks} + @{Climb-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Climb-ability" title="Climb-ability">
+                                        									<option value="(@{Strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Climb-ranks" title="Climb-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Climb-other" title="Climb-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_CraftArmor-Check" title="CraftArmor-Check" value="@{who-skill} Craft Armor check: [[@{die_type} + @{CraftArmor}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Craft Armor</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftArmor" title="CraftArmor" value="((floor((@{CraftArmor-ability})/2)) + @{CraftArmor-ranks} + @{CraftArmor-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_CraftArmor-ability" title="CraftArmor-ability">
+                                        									<option value="(@{Strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftArmor-ranks" title="CraftArmor-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftArmor-other" title="CraftArmor-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_CraftMagicItem-Check" title="CraftMagicItem-Check" value="@{who-skill} Craft Magic Item check: [[@{die_type} + @{CraftMagicItem}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Craft Magic Item</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftMagicItem" title="CraftMagicItem" value="((floor((@{CraftMagicItem-ability})/2)) + @{CraftMagicItem-ranks} + @{CraftMagicItem-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_CraftMagicItem-ability" title="CraftMagicItem-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftMagicItem-ranks" title="CraftMagicItem-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftMagicItem-other" title="CraftMagicItem-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_CraftWeapon-Check" title="CraftWeapon-Check" value="@{who-skill} Craft Weapon check: [[@{die_type} + @{CraftWeapon}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Craft Weapon</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftWeapon" title="CraftWeapon" value="((floor((@{CraftWeapon-ability})/2)) + @{CraftWeapon-ranks} + @{CraftWeapon-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_CraftWeapon-ability" title="CraftWeapon-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftWeapon-ranks" title="CraftWeapon-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_CraftWeapon-other" title="CraftWeapon-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_DecipherScript-Check" title="DecipherScript-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{DecipherScript}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Decipher Script</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DecipherScript" title="DecipherScript" value="((floor((@{DecipherScript-ability})/2)) + @{DecipherScript-ranks} + @{DecipherScript-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_DecipherScript-ability" title="DecipherScript-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DecipherScript-ranks" title="DecipherScript-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DecipherScript-other" title="DecipherScript-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Diplomacy-Check" title="Diplomacy-Check" value="@{who-skill} Diplomacy check: [[@{die_type} + @{Diplomacy}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Diplomacy</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Diplomacy" title="Diplomacy" value="((floor((@{Diplomacy-ability})/2)) + @{Diplomacy-ranks} + @{Diplomacy-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Diplomacy-ability" title="Diplomacy-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Diplomacy-ranks" title="Diplomacy-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Diplomacy-other" title="Diplomacy-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_DisableDevice-Check" title="DisableDevice-Check" value="@{who-skill} Disable Device check: [[@{die_type} + @{DisableDevice}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Disable Device</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DisableDevice" title="DisableDevice" value="((floor((@{DisableDevice-ability})/2)) + @{DisableDevice-ranks} + @{DisableDevice-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_DisableDevice-ability" title="DisableDevice-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DisableDevice-ranks" title="DisableDevice-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_DisableDevice-other" title="DisableDevice-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Disguise-Check" title="Disguise-Check" value="@{who-skill} Disguise check: [[@{die_type} + @{Disguise}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Disguise</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Disguise" title="Disguise" value="((floor((@{Disguise-ability})/2)) + @{Disguise-ranks} + @{Disguise-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Disguise-ability" title="Disguise-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Disguise-ranks" title="Disguise-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Disguise-other" title="Disguise-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_EscapeArtist-Check" title="EscapeArtist-Check" value="@{who-skill} Escape Artist check: [[@{die_type} + @{EscapeArtist}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Escape Artist*</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_EscapeArtist" title="EscapeArtist" value="((floor((@{EscapeArtist-ability})/2)) + @{EscapeArtist-ranks} + @{EscapeArtist-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_EscapeArtist-ability" title="EscapeArtist-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_EscapeArtist-ranks" title="EscapeArtist-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_EscapeArtist-other" title="EscapeArtist-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Forgery-Check" title="Forgery-Check" value="@{who-skill} Forgery check: [[@{die_type} + @{Forgery}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Forgery</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Forgery" title="Forgery" value="((floor((@{Forgery-ability})/2)) + @{Forgery-ranks} + @{Forgery-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Forgery-ability" title="Forgery-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Forgery-ranks" title="Forgery-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Forgery-other" title="Forgery-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_GatherInformation-Check" title="GatherInformation-Check" value="@{who-skill} GatherInformation check: [[@{die_type} + @{GatherInformation}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Gather Information</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_GatherInformation" title="GatherInformation" value="((floor((@{GatherInformation-ability})/2)) + @{GatherInformation-ranks} + @{GatherInformation-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_GatherInformation-ability" title="GatherInformation-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_GatherInformation-ranks" title="GatherInformation-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_GatherInformation-other" title="GatherInformation-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Hide-Check" title="Hide-Check" value="@{who-skill} Hide check: [[@{die_type} + @{Hide}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Hide</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Hide" title="Hide" value="((floor((@{Hide-ability})/2)) + @{Hide-ranks} + @{Hide-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Hide-ability" title="Hide-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Hide-ranks" title="Hide-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Hide-other" title="Hide-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Intimidate-Check" title="Intimidate-Check" value="@{who-skill} Intimidate check: [[@{die_type} + @{Intimidate}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Intimidate</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Intimidate" title="Intimidate" value="((floor((@{Intimidate-ability})/2)) + @{Intimidate-ranks} + @{Intimidate-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Intimidate-ability" title="Intimidate-ability">
+                                        									<option value="(@{strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Intimidate-ranks" title="Intimidate-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Intimidate-other" title="Intimidate-other" value="0"/></span>
+    				</div>
+                    	
+                    <div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Innuendo-Check" title="Innuendo-Check" value="@{who-skill} Innuendo check: [[@{die_type} + @{Innuendo}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Innuendo</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Innuendo" title="Innuendo" value="((floor((@{Innuendo-ability})/2)) + @{Innuendo-ranks} + @{Innuendo-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Innuendo-ability" title="Innuendo-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Innuendo-ranks" title="Innuendo-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Innuendo-other" title="Innuendo-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Jump-Check" title="Jump-Check" value="@{who-skill} Jump check: [[@{die_type} + @{Jump}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Jump</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Jump" title="Jump" value="(@{Jump-ability} + @{Jump-ranks} + @{Jump-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Jump-ability" title="Jump-ability">
+                                        									<option value="(@{strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Jump-ranks" title="Jump-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Jump-other" title="Jump-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Arcana-Check" title="Knowledge-Arcana-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Arcana}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Arcana</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Arcana" title="Knowledge-Arcana" value="((floor((@{Knowledge-Arcana-ability})/2)) + @{Knowledge-Arcana-ranks} + @{Knowledge-Arcana-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Arcana-ability" title="Knowledge-Arcana-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Arcana-ranks" title="Knowledge-Arcana-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Arcana-other" title="Knowledge-Arcana-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Dungeoneering-Check" title="Knowledge-Dungeoneering-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Dungeoneering}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knl-Dungeoneering</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Dungeoneering" title="Knowledge-Dungeoneering" value="((floor((@{Knowledge-Dungeoneering-ability})/2)) + @{Knowledge-Dungeoneering-ranks} + @{Knowledge-Dungeoneering-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Dungeoneering-ability" title="Knowledge-Dungeoneering-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Dungeoneering-ranks" title="Knowledge-Dungeoneering-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Dungeoneering-other" title="Knowledge-Dungeoneering-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Geography-Check" title="Knowledge-Geography-Check" value="@{who-skill} Knowledge-Geography check: [[@{die_type} + @{Knowledge-Geography}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knl-Geography</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Geography" title="Knowledge-Geography" value="((floor((@{Knowledge-Geography-ability})/2)) + @{Knowledge-Geography-ranks} + @{Knowledge-Geography-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Geography-ability" title="Knowledge-Geography-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Geography-ranks" title="Knowledge-Geography-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Geography-other" title="Knowledge-Geography-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-History-Check" title="Knowledge-History-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-History}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-History</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-History" title="Knowledge-History" value="((floor((@{Knowledge-History-ability})/2)) + @{Knowledge-History-ranks} + @{Knowledge-History-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-History-ability" title="Knowledge-History-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-History-ranks" title="Knowledge-History-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-History-other" title="Knowledge-History-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Local-Check" title="Knowledge-Local-Check" value="@{who-skill} Knowledge-Local check: [[@{die_type} + @{Knowledge-Local}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Local</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Local" title="Knowledge-Local" value="((floor((@{Knowledge-Local-ability})/2)) + @{Knowledge-Local-ranks} + @{Knowledge-Local-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Local-ability" title="Knowledge-Local-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Local-ranks" title="Knowledge-Local-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Local-other" title="Knowledge-Local-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nature-Check" title="Knowledge-Nature-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Nature}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Nature</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nature" title="Knowledge-Nature" value="((floor((@{Knowledge-Nature-ability})/2)) + @{Knowledge-Nature-ranks} + @{Knowledge-Nature-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Nature-ability" title="Knowledge-Nature-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nature-ranks" title="Knowledge-Nature-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nature-other" title="Knowledge-Nature-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nobility-Check" title="Knowledge-Nobility-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Nobility}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knl-Nobility/Royalty</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nobility" title="Knowledge-Nobility" value="((floor((@{Knowledge-Nobility-ability})/2)) + @{Knowledge-Nobility-ranks} + @{Knowledge-Nobility-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Nobility-ability" title="Knowledge-Nobility-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nobility-ranks" title="Knowledge-Nobility-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nobility-other" title="Knowledge-Nobility-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Planes-Check" title="Knowledge-Planes-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Planes}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Planes</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Planes" title="Knowledge-Planes" value="((floor((@{Knowledge-Planes-ability})/2)) + @{Knowledge-Planes-ranks} + @{Knowledge-Planes-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Planes-ability" title="Knowledge-Planes-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Planes-ranks" title="Knowledge-Planes-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Planes-other" title="Knowledge-Planes-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Tactics-Check" title="Knowledge-Tactics-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Tactics}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Tactics</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Tactics" title="Knowledge-Tactics" value="((floor((@{Knowledge-Tactics-ability})/2)) + @{Knowledge-Tactics-ranks} + @{Knowledge-Tactics-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Tactics-ability" title="Knowledge-Tactics-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Tactics-ranks" title="Knowledge-Tactics-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Tactics-other" title="Knowledge-Tactics-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Weapon-Check" title="Knowledge-Weapon-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Weapon}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Weapon</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Weapon" title="Knowledge-Weapon" value="((floor((@{Knowledge-Weapon-ability})/2)) + @{Knowledge-Weapon-ranks} + @{Knowledge-Weapon-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Knowledge-Weapon-ability" title="Knowledge-Weapon-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Weapon-ranks" title="Knowledge-Weapon-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Weapon-other" title="Knowledge-Weapon-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Language-Check" title="Language-Check" value="@{who-skill} can learn to read or write [[@{Language}]] Languages"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Language</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>-</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Language" title="Language" value="(@{Language-ability} + @{Language-ranks} + @{Language-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Language-ability" title="Language-ability" value="0" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Language-ranks" title="Language-ranks" value="0"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Language-other" title="Language-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Listen-Check" title="Listen-Check" value="@{who-skill} Listen check: [[@{die_type} + @{Listen}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Listen</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Listen" title="Listen" value="((floor((@{Listen-ability})/2)) + @{Listen-ranks} + @{Listen-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Listen-ability" title="Listen-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Listen-ranks" title="Listen-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Listen-other" title="Listen-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_MoveSilently-Check" title="MoveSilently-Check" value="@{who-skill} MoveSilently check: [[@{die_type} + @{MoveSilently}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Move Silently*</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_MoveSilently" title="MoveSilently" value="((floor((@{MoveSilently-ability})/2)) + @{MoveSilently-ranks} + @{MoveSilently-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_MoveSilently-ability" title="MoveSilently-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_MoveSilently-ranks" title="MoveSilently-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_MoveSilently-other" title="MoveSilently-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_OpenLock-Check" title="OpenLock-Check" value="@{who-skill} OpenLock check: [[@{die_type} + @{OpenLock}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Open Lock</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_OpenLock" title="OpenLock" value="((floor((@{OpenLock-ability})/2)) + @{OpenLock-ranks} + @{OpenLock-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_OpenLock-ability" title="OpenLock-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_OpenLock-ranks" title="OpenLock-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_OpenLock-other" title="OpenLock-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_ReadLips-Check" title="ReadLips-Check" value="@{who-skill} ReadLips check: [[@{die_type} + @{ReadLips}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Read Lips</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ReadLips" title="ReadLips" value="((floor((@{ReadLips-ability})/2)) + @{ReadLips-ranks} + @{ReadLips-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_ReadLips-ability" title="ReadLips-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ReadLips-ranks" title="ReadLips-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ReadLips-other" title="ReadLips-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Search-Check" title="Search-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Search}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Search</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Search" title="Search" value="((floor((@{Search-ability})/2)) + @{Search-ranks} + @{Search-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Search-ability" title="Search-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Search-ranks" title="Search-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Search-other" title="Search-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_SenseMotive-Check" title="SenseMotive-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{SenseMotive}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Sense Motive</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SenseMotive" title="SenseMotive" value="((floor((@{SenseMotive-ability})/2)) + @{SenseMotive-ranks} + @{SenseMotive-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_SenseMotive-ability" title="SenseMotive-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SenseMotive-ranks" title="SenseMotive-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SenseMotive-other" title="SenseMotive-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_SleightOfHand-Check" title="SleightOfHand-Check" value="@{who-skill} SleightOfHand check: [[@{die_type} + @{SleightOfHand}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Sleight Of Hand*</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SleightOfHand" title="SleightOfHand" value="((floor((@{SleightOfHand-ability})/2)) + @{SleightOfHand-ranks} + @{SleightOfHand-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_SleightOfHand-ability" title="SleightOfHand-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SleightOfHand-ranks" title="SleightOfHand-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SleightOfHand-other" title="SleightOfHand-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Spot-Check" title="Spot-Check" value="@{who-skill} Spot check: [[@{die_type} + @{Spot}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Spot</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Spot" title="Spot" value="((floor((@{Spot-ability})/2)) + @{Spot-ranks} + @{Spot-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Spot-ability" title="Spot-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Spot-ranks" title="Spot-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Spot-other" title="Spot-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Stabilize-Check" title="Stabilize-Check" value="@{who-skill} Stabilize check: [[@{die_type} + @{Stabilize}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Stabilize</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Stabilize" title="Stabilize" value="((floor((@{Stabilize-ability})/2)) + @{Stabilize-ranks} + @{Stabilize-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Stabilize-ability" title="Stabilize-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Stabilize-ranks" title="Stabilize-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Stabilize-other" title="Stabilize-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    				    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Survival-Check" title="Survival-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Survival}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Survival</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Survival" title="Survival" value="((floor((@{Survival-ability})/2)) + @{Survival-ranks} + @{Survival-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Survival-ability" title="Survival-ability">
+                                        									<option value="(@{Magic-total})" selected>Magic</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Survival-ranks" title="Survival-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Survival-other" title="Survival-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Swim-Check" title="Swim-Check" value="@{who-skill} Swim check: [[@{die_type} + @{Swim}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Swim*</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Swim" title="Swim" value="(@{Swim-ability} + @{Swim-ranks} + @{Swim-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Swim-ability" title="Swim-ability">
+                                        									<option value="(@{strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Swim-ranks" title="Swim-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Swim-other" title="Swim-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Tumble-Check" title="Tumble-Check" value="@{who-skill} Tumble check: [[@{die_type} + @{Tumble}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Tumble*</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SPD</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Tumble" title="Tumble" value="((floor((@{Tumble-ability})/2)) + @{Tumble-ranks} + @{Tumble-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_Tumble-ability" title="Tumble-ability">
+                                        									<option value="(@{speed-total})" selected>Speed</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Tumble-ranks" title="Tumble-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Tumble-other" title="Tumble-other" value="0"/></span>
+    				</div>
+    				
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_UseMagicDevice-Check" title="UseMagicDevice-Check" value="@{who-skill} UseMagicDevice check: [[@{die_type} + @{UseMagicDevice}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Use Magic Device</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>SKL</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseMagicDevice" title="UseMagicDevice" value="((floor((@{UseMagicDevice-ability})/2)) + @{UseMagicDevice-ranks} + @{UseMagicDevice-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_UseMagicDevice-ability" title="UseMagicDevice-ability">
+                                        									<option value="(@{Skill-total})" selected>Skill</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        								    <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseMagicDevice-ranks" title="UseMagicDevice-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseMagicDevice-other" title="UseMagicDevice-other" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_UseRope-Check" title="UseRope-Check" value="@{who-skill} UseRope check: [[@{die_type} + @{UseRope}]]"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Use Rope</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseRope" title="UseRope" value="(@{UseRope-ability} + @{UseRope-ranks} + @{UseRope-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><select name="attr_UseRope-ability" title="UseRope-ability">
+                                        									<option value="(@{strength-total})" selected>Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                                                            <option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseRope-ranks" title="UseRope-ranks" value="-3"/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseRope-other" title="UseRope-other" value="0"/></span>
+    				</div>
+
+
+
+    				
+    			</div>
+    		</div>
+    		<div style="border-style:solid;border-width:2px;">
+    		    <div class="sheet-table-row">
+		            <span class="sheet-table-data"><b>Roll Target - Stats: </b></span>
+		            <span class="sheet-table-data">
+                        <label class="sheet-small-label1">
+                            <select name="attr_who-stat" title="@{who-stat}">
+                                <option value="@{character_name}'s">Public</option>
+                                <option value="/em 's" selected>Public Emote</option>
+                                <option value="/w gm @{character_name}'s">Whisper GM</option>
+                                <option value="/w @{character_name}">Whisper Self</option>
+                            </select>
+                        </label>
+                    </span>
+                </div>
+                <div class="sheet-table-row">
+		            <span class="sheet-table-data"><b>Roll Target - Combat: </b></span>
+		            <span class="sheet-table-data">
+                        <label class="sheet-small-label1">
+                            <select name="attr_who-combat" title="@{who-combat}">
+                                <option value="@{character_name}'s">Public</option>
+                                <option value="/em 's" selected>Public Emote</option>
+                                <option value="/w gm @{character_name}'s">Whisper GM</option>
+                                <option value="/w @{character_name}">Whisper Self</option>
+                            </select>
+                        </label>
+                    </span>
+                </div>
+                <div class="sheet-table-row">
+		            <span class="sheet-table-data"><b>Roll Target - Initiative: </b></span>
+		            <span class="sheet-table-data">
+                        <label class="sheet-small-label1">
+                            <select name="attr_who-initiative" title="@{who-initiative}">
+                                <option value="@{character_name}">Public</option>
+                                <option value="/em">Public Emote</option>
+                                <option value="/w gm @{character_name}" selected>Whisper GM</option>
+                                <option value="/w @{character_name}">Whisper Self</option>
+                            </select>
+                        </label>
+                    </span>
+                </div>
+                <div class="sheet-table-row">
+		            <span class="sheet-table-data"><b>Roll Target - Skill: </b></span>
+		            <span class="sheet-table-data">
+                        <label class="sheet-small-label1">
+                            <select name="attr_who-skill" title="@{who-skill}">
+                                <option value="@{character_name}'s">Public</option>
+                                <option value="/em 's" selected>Public Emote</option>
+                                <option value="/w gm @{character_name}'s">Whisper GM</option>
+                                <option value="/w @{character_name}">Whisper Self</option>
+                            </select>
+                        </label>
+                    </span>
+                </div>
+				<div style="border-style:solid;border-width:2px;">
+    				<div class="sheet-table-row">
+						<span class="sheet-table-data"><b>Dice Roll Type: </b></span>
+						<span class="sheet-table-data">
+							<label class="sheet-small-label1">
+								<select name="attr_die_type" title="@{die_type}">
+									<option value="1d10" selected>Standard 1d10</option>
+									<option value="2d10k1">Greater 2d10 take the higher</option>
+									<option value="2d10dh1">Lesser 2d10 take the lower</option>
+								</select>
+							</label>
+						</span>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="sheet-section-complications" style="border-style:solid;border-width:2px;">
+    	<span class="sheet-table-data"><b>Motivations & Complications</b></span>
+		<br>
+		<fieldset class="repeating_complication">
+			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_complication_X_name" value="Name"/></span>
+			<textarea name="attr_description" title="repeating_complication_X_description" style="height:90px;">Description</textarea>
+		</fieldset>
+	</div>
+</div>
+
+<div class="sheet-tab-content sheet-tab2">
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab11" value="1" title="Powers & Devices"/>
+        <span class="sheet-tab sheet-tab11">Powers & Devices</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab12" value="2" title="Advantages"/>
+        <span class="sheet-tab sheet-tab12">Advantages</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab13" value="3" title="Equipment"/>
+        <span class="sheet-tab sheet-tab13">Equipment</span>
+    <input type="radio" name="attr_subtab" class="sheet-tab sheet-tab99" value="99" title="All" checked/>
+        <span class="sheet-tab sheet-tab99">All</span>
+        
+    <div class="sheet-tab-content sheet-tab11 sheet-tab99">
+        <div class="sheet-section-powers" style="border-style:solid;border-width:2px;">
+        	<span class="sheet-table-data"><b>Powers & Devices</b></span>
+    			<span class="sheet-table-header" style="width:60%;"></span>
+    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Ranks</span>
+    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Points Per Rank</span>
+    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Misc</span>
+    			<span class="sheet-table-header" style="width:6%; font-size:10px;">Total</span>
+    		<fieldset class="repeating_power">
+    			<span class="sheet-table-data" style="width:100%"><input type="text" name="attr_name" title="repeating_power_X_name" value="Name"/></span>
+    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ranks" title="repeating_power_X_ranks" value="0"/></span>
+    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_points-per-rank" title="repeating_power_X_points-per-rank" value="0"/></span>
+    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_misc-points" title="repeating_power_X_misc-points" value="0"/></span>
+    			<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_total-cost" title="repeating_power_X_total-cost" value="((@{ranks} * @{points-per-rank}) + @{misc-points})" disabled/></span>
+    			<textarea name="attr_description" title="repeating_power_X_description" style="height:90px;">Description</textarea>
+    			<hr>
+    		</fieldset>
+    	</div>
+        <br>
+    </div>
+    <div class="sheet-tab-content sheet-tab12 sheet-tab99">
+        <div class="sheet-section-advantages" style="border-style:solid;border-width:2px;">
+    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Advantages</b></span>
+    		<fieldset class="repeating_advantage">
+    			<span class="sheet-table-data"><input type="number" name="attr_ranks" title="repeating_advantage_X_ranks" value="0"/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_advantage_X_name" value="Name"/></span>
+    			<textarea name="attr_description" title="repeating_advantage_X_description" style="height:90px;">Description</textarea>
+    			<hr>
+    		</fieldset>
+    	</div>
+        <br>
+    </div>
+    <div class="sheet-tab-content sheet-tab13 sheet-tab99">
+    	<div class="sheet-section-equipment" style="border-style:solid;border-width:2px;">
+    		<span class="sheet-table-data" style="height:36px;"><b>&nbsp;Equipment, Vehicles, and Headquarters</b></span>
+    		<fieldset class="repeating_equipment">
+    			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_equipment_X_name" value="Name"/></span>
+    			<textarea name="attr_description" title="repeating_equipment_X_description" style="height:90px;">Description</textarea>
+    			<hr>
+    		</fieldset>
+        </div>
+	</div>
+</div>
