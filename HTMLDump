@@ -461,7 +461,7 @@
                     </fieldset>
     		</div>
             <div class="sheet-section-notes" style="border-style:solid;border-width:2px;">
-            	<span class="sheet-table-data"><b>Weapon EXP</b></span>
+            	<span class="sheet-table-data"><b>Player Notes</b></span>
     			<br>
     			<textarea style="height:100px" name="attr_notes" title="notes"></textarea><br>
     		</div>
@@ -858,7 +858,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Arcana-Check" title="Knowledge-Arcana-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Arcana}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Arcana-Check" title="Knowledge-Arcana-Check" value="@{who-skill} Knowledge-Arcana check: [[@{die_type} + @{Knowledge-Arcana}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Arcana</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Arcana" title="Knowledge-Arcana" value="((floor((@{Knowledge-Arcana-ability})/2)) + @{Knowledge-Arcana-ranks} + @{Knowledge-Arcana-other})" disabled/></span>
@@ -879,7 +879,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Dungeoneering-Check" title="Knowledge-Dungeoneering-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Dungeoneering}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Dungeoneering-Check" title="Knowledge-Dungeoneering-Check" value="@{who-skill} Knl-Dungeoneering check: [[@{die_type} + @{Knowledge-Dungeoneering}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knl-Dungeoneering</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Dungeoneering" title="Knowledge-Dungeoneering" value="((floor((@{Knowledge-Dungeoneering-ability})/2)) + @{Knowledge-Dungeoneering-ranks} + @{Knowledge-Dungeoneering-other})" disabled/></span>
@@ -920,7 +920,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-History-Check" title="Knowledge-History-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-History}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-History-Check" title="Knowledge-History-Check" value="@{who-skill} Knowledge-History check: [[@{die_type} + @{Knowledge-History}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-History</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-History" title="Knowledge-History" value="((floor((@{Knowledge-History-ability})/2)) + @{Knowledge-History-ranks} + @{Knowledge-History-other})" disabled/></span>
@@ -962,7 +962,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nature-Check" title="Knowledge-Nature-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Nature}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nature-Check" title="Knowledge-Nature-Check" value="@{who-skill} Knowledge-Nature check: [[@{die_type} + @{Knowledge-Nature}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Nature</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nature" title="Knowledge-Nature" value="((floor((@{Knowledge-Nature-ability})/2)) + @{Knowledge-Nature-ranks} + @{Knowledge-Nature-other})" disabled/></span>
@@ -983,7 +983,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nobility-Check" title="Knowledge-Nobility-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Nobility}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Nobility-Check" title="Knowledge-Nobility-Check" value="@{who-skill} Knl-Nobility/Royalty check: [[@{die_type} + @{Knowledge-Nobility}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knl-Nobility/Royalty</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nobility" title="Knowledge-Nobility" value="((floor((@{Knowledge-Nobility-ability})/2)) + @{Knowledge-Nobility-ranks} + @{Knowledge-Nobility-other})" disabled/></span>
@@ -1003,7 +1003,7 @@
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Nobility-other" title="Knowledge-Nobility-other" value="0"/></span>
     				</div>
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Planes-Check" title="Knowledge-Planes-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Planes}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Planes-Check" title="Knowledge-Planes-Check" value="@{who-skill} Knowledge-Planes check: [[@{die_type} + @{Knowledge-Planes}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Planes</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Planes" title="Knowledge-Planes" value="((floor((@{Knowledge-Planes-ability})/2)) + @{Knowledge-Planes-ranks} + @{Knowledge-Planes-other})" disabled/></span>
@@ -1023,7 +1023,7 @@
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Planes-other" title="Knowledge-Planes-other" value="0"/></span>
     				</div>
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Tactics-Check" title="Knowledge-Tactics-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Tactics}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Tactics-Check" title="Knowledge-Tactics-Check" value="@{who-skill} Knowledge-Tactics check: [[@{die_type} + @{Knowledge-Tactics}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Tactics</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Tactics" title="Knowledge-Tactics" value="((floor((@{Knowledge-Tactics-ability})/2)) + @{Knowledge-Tactics-ranks} + @{Knowledge-Tactics-other})" disabled/></span>
@@ -1044,7 +1044,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Weapon-Check" title="Knowledge-Weapon-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Knowledge-Weapon}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Knowledge-Weapon-Check" title="Knowledge-Weapon-Check" value="@{who-skill} Knowledge-Weapon check: [[@{die_type} + @{Knowledge-Weapon}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Knowledge-Weapon</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Knowledge-Weapon" title="Knowledge-Weapon" value="((floor((@{Knowledge-Weapon-ability})/2)) + @{Knowledge-Weapon-ranks} + @{Knowledge-Weapon-other})" disabled/></span>
@@ -1155,7 +1155,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Search-Check" title="Search-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Search}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Search-Check" title="Search-Check" value="@{who-skill} Search check: [[@{die_type} + @{Search}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Search</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Search" title="Search" value="((floor((@{Search-ability})/2)) + @{Search-ranks} + @{Search-other})" disabled/></span>
@@ -1175,7 +1175,7 @@
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Search-other" title="Search-other" value="0"/></span>
     				</div>
     				<div class="sheet-table-row">
-    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_SenseMotive-Check" title="SenseMotive-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{SenseMotive}]]"></button></span>
+    				<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_SenseMotive-Check" title="SenseMotive-Check" value="@{who-skill} Sense Motive check: [[@{die_type} + @{SenseMotive}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Sense Motive</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_SenseMotive" title="SenseMotive" value="((floor((@{SenseMotive-ability})/2)) + @{SenseMotive-ranks} + @{SenseMotive-other})" disabled/></span>
@@ -1257,7 +1257,7 @@
     				</div>
     				
     				<div class="sheet-table-row">
-    				    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Survival-Check" title="Survival-Check" value="@{who-skill} Decipher Script check: [[@{die_type} + @{Survival}]]"></button></span>
+    				    <span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Survival-Check" title="Survival-Check" value="@{who-skill} Survival check: [[@{die_type} + @{Survival}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Survival</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>MAG</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Survival" title="Survival" value="((floor((@{Survival-ability})/2)) + @{Survival-ranks} + @{Survival-other})" disabled/></span>
