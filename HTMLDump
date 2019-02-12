@@ -19,7 +19,7 @@
 			<div class="sheet-table-row">
 				<span class="sheet-table-data"><b>Race:</b></span>
 				<span class="sheet-table-data"><select style="width:100px" type="text" name="attr_race" title="race" value="none"/>
-				<option value="select">Select One</option>
+				<option value="select" selected disabled>Select One</option>
 				<option value="abaddon">Abaddon</option>
                 <option value="akimoto">Akimoto</option>
                 <option value="arachniea">Arachniea</option>
@@ -35,8 +35,11 @@
                 <option value="inuyakin">Inuyakin</option>
                 <option value="jrigori">Jrigori</option>
                 <option value="keikeiora">Keikeiora</option>
+                <option value="Lourka">Lourka</option>
                 <option value="mastodon">Mastodon</option>
                 <option value="nepherite">Nepherite</option>
+                <option value="nepherite">Nox</option>
+                <option value="nepherite">Ouud</option>
                 <option value="ruKiv">Ru'kiv</option>
                 <option value="seraphim">Seraphim</option>
                 <option value="sermata">Sermata</option>
@@ -57,7 +60,7 @@
 				<span class="sheet-table-data">&nbsp;</span>
 				<span class="sheet-table-data"><b>Birth Month:</b></span>
 				<span class="sheet-table-data"><select style="width:100px;" type="text" name="attr_birthMonth" title="birthMonth"/>
-				<option value="select">Select One</option>
+				<option value="select" selected disabled>Select One</option>
 				<option value="oblate">Oblate</option>
                 <option value="earlate">Earlate</option>
                 <option value="irelate">Irelate</option>
@@ -86,16 +89,40 @@
 		<div class="sheet-table">
 			<div class="sheet-table-row">
 			    <span class="sheet-table-data"><b>Skill Proficiency:</b></span>
-				<span class="sheet-table-data"><input type="text" name="attr_skillProficiency" title="skillProficiency"/></span>
+				<span class="sheet-table-data"><select name="attr_skillProficiency" title="skillProficiency"/>
+                                        									<option value="Select One" selected disabled>Select One</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                        									<option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Health Gain:</b></span>
+				<span class="sheet-table-data"><select name="attr_HealthGain" title="HealthGain"/>
+                                        									<option value="Select One" selected disabled>Select One</option>
+                                        									<option value="(1d4)">1d4</option>
+                                        									<option value="(1d6)">1d6</option>
+                                        									<option value="(1d8)">1d8</option>
+                                        									<option value="(1d10)">1d10</option>
+                                                                            <option value="(1d12)">1d12</option>
+                                                                            <option value="(1d20)">1d20</option>
+                                        								</select>
+                                        								</span>
 				<span class="sheet-table-data">&nbsp;</span>
 				<span class="sheet-table-data"><b>Mentalities:</b></span>
 				<span class="sheet-table-data"><input type="text" name="attr_mentalities" title="mentalities"/></span>
 				<span class="sheet-table-data">&nbsp;</span>
-				<span class="sheet-table-data"><b>Current Health:</b></span>
-				<span class="sheet-table-data"><input type="number" name="attr_currentHP" title="currentHP"/></span>
-				<span class="sheet-table-data">&nbsp;</span>
 				<span class="sheet-table-data"><b>Max Health:</b></span>
-				<span class="sheet-table-data"><input type="number" name="attr_maxCHP" title="maxHP"/></span>
+				<span class="sheet-table-data"><input type="number" name="attr_maxCHP" title="maxHP" value="0"/></span>
+				<span class="sheet-table-data">&nbsp;</span>
+				<span class="sheet-table-data"><b>Current Health:</b></span>
+				<span class="sheet-table-data"><input type="number" name="attr_currentHP" title="currentHP" value="0"/></span>
 				<span class="sheet-table-data">&nbsp;</span>
 			</div>
 		</div>
@@ -219,13 +246,19 @@
                                     <span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
         							<span class="sheet-table-header" style="font-size:10px; width:25%;">Current Energy</span>
         							<span class="sheet-table-header" style="font-size:10px; width:25%;">Max Energy</span>
+        							<span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
+        							<span class="sheet-table-header" style="font-size:10px; width:25%;">Current EXP</span>
+        							<span class="sheet-table-header" style="font-size:10px; width:25%;">Max EXP</span>
         						</div>
         						<div class="sheet-table-row">
                                     <span class="sheet-table-data"><input type="number" name="attr_starting-skill-points" title="starting-skill-points" value="0"/></span>
             						<span class="sheet-table-data"><input type="number" name="attr_skill-points-gained" title="skill-points-gained" value="0"/></span>
                                     <span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
         							<span class="sheet-table-data"><input type="number" name="attr_current-energy" title="current-energy" value="0"/></span>
-        							<span class="sheet-table-data"><input type="number" name="attr_max-energy" title="max-energy" value="0"/></span>
+        							<span class="sheet-table-data"><input type="number" name="attr_max-energy" title="max-energy" value="100"/></span>
+        							<span class="sheet-table-header" style="border-left:solid #000; border-width:2px;"></span>
+        							<span class="sheet-table-data"><input type="number" name="attr_current-exp" title="current-exp" value="0"/></span>
+        							<span class="sheet-table-data"><input type="number" name="attr_max-exp" title="max-exp" value="100"/></span>
         						</div>
     						</div>
     					</div>
@@ -238,7 +271,7 @@
     				<span class="sheet-table-data"><input type="text" name="attr_Resource-name" title="Resource-name" value="Name"/></span>
     				<span class="sheet-table-data"><input type="number" name="attr_Resource" title="Resource-current" value="0"/></span>
     				<span class="sheet-table-data"> / </span>
-                    <span class="sheet-table-data"><input type="number" name="attr_Resource-base" title="Resource-base" value="0" disabled/></span>
+                    <span class="sheet-table-data"><input type="number" name="attr_Resource-base" title="Resource-base" value="0"/></span>
                     <span class="sheet-table-data"><input type="text" name="attr_Resource-souce" title="Resource-source-name" value="Source?"/></span>
                     </fieldset>
     		</div>
@@ -352,20 +385,47 @@
     					<span class="sheet-table-data"><input type="number" name="attr_criticalChance-misc" title="will-misc" value="0"/></span>
     				</div>
     				<div class="sheet-table-row">
+    					<span class="sheet-table-data"><button type="roll" name="roll_DamageReduction" title="DamageReduction" value="@{who-combat} has a Damage Reduction: [[@{DamageReduction}]]"></button></span>
+    					<span class="sheet-table-data"><b>Damage Reductione</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><b>Def/Res</b></span>
+    					<span class="sheet-table-data">&nbsp;</span>
+    					<span class="sheet-table-data"><input type="number" name="attr_DamageReduction" title="DamageReduction" value="(@{DamageReduction-points} + (ceil(@{DamageReduction-ability})) + @{criticalChance-misc})" disabled/></span>
+    					<span class="sheet-table-data"><b>=</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_DamageReduction-points" title="DamageReduction-points" value="0"/></span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><select name="attr_DamageReduction-ability" title="DamageReduction-ability">
+    					                                                    <option value="0" selected disabled>Select One</option>
+                                        									<option value="(@{strength-total})">Strength</option>
+                                        									<option value="(@{Magic-total})">Magic</option>
+                                        									<option value="(@{Skill-total})">Skill</option>
+                                        									<option value="(@{speed-total})">Speed</option>
+                                                                            <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
+                                                                            <option value="(@{Constitution-total})">Constitution</option>
+                                                                            <option value="(@{Charisma-total})">Charisma</option>
+                                        								</select>
+                                        								</span>
+    					<span class="sheet-table-data"><b>+</b></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_DamageReduction-misc" title="DamageReduction-misc" value="0"/></span>
+    				</div>
+    				<div class="sheet-table-row">
     					<span class="sheet-table-data"><button type="roll" name="roll_carryWeight" title="carryWeight" value="@{who-combat} is carrying [[@{carrWeight}]] weight, and has a Max Carry Weight of: [[@{carryWeight-ability}]] weight."></button></span>
     					<span class="sheet-table-data"><b>Carry Weight</b></span>
     					<span class="sheet-table-data">&nbsp;</span>
     					<span class="sheet-table-data"><b>STR </b></span>
     					<span class="sheet-table-data">&nbsp;</span>
-    					<span class="sheet-table-data"><input type="number" name="attr_carryWeight" title="carryWeight" value="(@{carryWeight-points} + @{carryWeight-ability} + @{carryWeight-misc})" disabled/></span>
+    					<span class="sheet-table-data"><input type="number" name="attr_carryWeight" title="carryWeight" value="(@{carryWeight-ability} - @{carryWeight-points} + @{carryWeight-misc})" disabled/></span>
     					<span class="sheet-table-data"><b>=</b></span>
     					<span class="sheet-table-data"><input type="number" name="attr_carryWeight-points" title="will-points" value="0"/></span>
     					<span class="sheet-table-data"><b>+</b></span>
     					<span class="sheet-table-data"><select name="attr_carryWeight-ability" title="carryWeight-ability">
                                         									<option value="(@{strength-total})*5" selected>Normal Carry Weight</option>
                                         									<option value="(@{strength-total})*9">Bovidea</option>
-                                        									<option value="(@{constitution-total})*5">Crag</option>
+                                        									<option value="(@{constitution-total})*5">Crag and Nox</option>
                                         									<option value="(@{strength-total})*7">Dycuus and Half-Orc</option>
+                                        									<option value="(@{constitution-total})*7">Ouud</option>
                                         								</select>
                                         								</span>
     					<span class="sheet-table-data"><b>+</b></span>
@@ -386,6 +446,7 @@
     			<span class="sheet-table-data"><b>+</b></span>
     			<span class="sheet-table-data"><input type="number" name="attr_initiative-ability" title="agility" value="@{attackSpeed-total}" disabled/></span>
     			<br>
+    			
     			<fieldset class="repeating_attacks">
     				<span class="sheet-table-data"><button type="roll" name="roll_attack-roll" title="repeating_attack_X_attack-roll (NOT USABLE IN MACROS)" value="@{macro-text}"></button></span>
     				<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_attack_X_name" value="Name"/></span>
@@ -405,7 +466,23 @@
     				<span class="sheet-table-data"><input type="text" name="attr_effect" title="repeating_attack_X_effect" value="Effect"/></span>
     				<span style="font-size:10px;"><b>Show Macro Text?&nbsp;&nbsp;</b></span>
     				<input type="checkbox" class="sheet-macro-show" title="repeating_attacks_X_macro-text-show" name="attr_macro-text-show" value="1" style="opacity:0;width: 16px;height: 16px;position: relative;top: 5px;left: 6px;margin: -10px;cursor: pointer;z-index: 1;"/><span></span>
-    				<textarea class="sheet-macro" title="repeating_attacks_X_macro-text" name="attr_macro-text">@&{template:default} {{name=*** @{name} ***}} {{*Attack:*=[[1d100]]}} {{*Hit Chance*:=[[@{hitChance}-?{Modifier|0})/?{Hit location multiplier|1})))]]}}  {{*Crit Chance:*=[[@{criticalChance}]]}} {{*Physical Damage per hit:*= [[(@{attack-ability}+(@{bonus})+(@{wepMight}))*?{Hit location multiplier|1})]]}} {{*Called shot?:* = ?{Called shot location|No}}} {{*Attack Effect:* = @{effect}}}</textarea>
+    				<textarea class="sheet-macro" title="repeating_attacks_X_macro-text" name="attr_macro-text">@&{template:default} {{name=*** @{name} ***}} {{*Attack:*=[[1d100]]}} {{*Hit Chance*:=[[(@{hitChance}-?{Modifier|0})/?{Hit location multiplier|1})))]]}}  {{*Crit Chance:*=[[@{criticalChance}]]}} {{*Physical Damage per hit:*= [[(@{attack-ability}+(@{bonus})+(@{wepMight}))*?{Hit location multiplier|1})]]}} {{*Called shot?:* = ?{Called shot location|No}}} {{*Random Hit Location:*= [[1t[Hit-Location]]]}} {{*Attack Effect:* = @{effect}}}</textarea>
+    			</fieldset>
+    		</div>
+    		<br>
+            <div class="sheet-section-offense2" style="border-style:solid;border-width:2px;">
+            	<span class="sheet-table-data"><b>Guns or Crossbows</b></span>
+    			<br>
+    			<fieldset class="repeating_attacks2">
+    				<span class="sheet-table-data"><button type="roll" name="roll_attack-roll2" title="repeating_attack_X_attack-roll2 (NOT USABLE IN MACROS)" value="@{macro-text2}"></button></span>
+    				<span class="sheet-table-data"><input type="text" name="attr_name2" title="repeating_attack_X_nam2" value="Name"/></span>
+                    <span class="sheet-table-data"><input type="number" name="attr_wepMight2" title="repeating_attack_X_wepMight2" value="0"/></span>
+                    <span class="sheet-table-data"><input type="number" name="attr_ammoMight2" title="repeating_attack_X_ammoMight2" value="0"/></span>
+    				<span class="sheet-table-data"><input type="number" name="attr_bonus2" title="repeating_attack_X_bonus2" value="0"/></span>
+    				<span class="sheet-table-data"><input type="text" name="attr_effect2" title="repeating_attack_X_effect2" value="Effect"/></span>
+    				<span style="font-size:10px;"><b>Show Macro Text?&nbsp;&nbsp;</b></span>
+    				<input type="checkbox" class="sheet-macro-show" title="repeating_attacks_X_macro-text-show2" name="attr_macro-text-show2" value="1" style="opacity:0;width: 16px;height: 16px;position: relative;top: 5px;left: 6px;margin: -10px;cursor: pointer;z-index: 1;"/><span></span>
+    				<textarea class="sheet-macro" title="repeating_attacks_X_macro-text2" name="attr_macro-text2">@&{template:default} {{name=*** @{name2} ***}} {{*Attack:*=[[1d100]]}} {{*Hit Chance*:=[[(@{hitChance}-?{Modifier|0})/?{Hit location multiplier|1})))]]}}  {{*Crit Chance:*=[[@{criticalChance}]]}} {{*Physical Damage per hit:*= [[(@{ammoMight2}+(@{bonus2})+(@{wepMight2}))*?{Hit location multiplier|1})]]}} {{*Called shot?:* = ?{Called shot location|No}}} {{*Random Hit Location:*= [[1t[Hit-Location]]]}} {{*Attack Effect:* = @{effect2}}}</textarea>
     			</fieldset>
     		</div>
             <br>
@@ -417,12 +494,14 @@
     				<span class="sheet-table-data"><input type="text" name="attr_adv-skill-name" title="adv-skill-name" value="Name"/></span>
     				<span class="sheet-table-data"><input type="number" name="attr_adv-skill" title="adv-skill-total" value="((floor((@{adv-skill-ability})/2)) + @{adv-skill-ranks} + @{adv-skill-other})" disabled/></span>
     				<span class="sheet-table-data"><select name="attr_adv-skill-ability" title="adv-skill-Att-bonus">
-                                        									<option value="(0)" selected>Select One</option>
+                                        									<option value="(0)" selected disabled>Select One</option>
                                         									<option value="(@{strength-total})">Strength</option>
                                         									<option value="(@{Magic-total})">Magic</option>
                                         									<option value="(@{Skill-total})">Skill</option>
                                                                             <option value="(@{speed-total})">Speed</option>
                                                                             <option value="(@{Faith-total})">Faith</option>
+                                                                            <option value="(@{Defense-total})">Defense</option>
+                                                                            <option value="(@{Resistance-total})">Resistance</option>
                                                                             <option value="(@{Constitution-total})">Constitution</option>
                                                                             <option value="(@{Charisma-total})">Charisma</option>
                                         								</select>
@@ -548,7 +627,7 @@
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_ConPen-other" title="ConPen-other" value="0"/></span>
     				</div>
     				<div class="sheet-table-row">
-    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Climb-Check" title="Climb-Check" value="@{who-skill} rolls a Climb check: [[@{Climb}]]"></button></span>
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Climb-Check" title="Climb-Check" value="@{who-skill} rolls a Climb check: [[@{die_type} + @{Climb}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Climb*</b></span>
     					<span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
     					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Climb" title="Climb" value="((floor((@{Climb-ability})/2)) + @{Climb-ranks} + @{Climb-other})" disabled/></span>
@@ -840,7 +919,7 @@
     					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Jump-Check" title="Jump-Check" value="@{who-skill} Jump check: [[@{die_type} + @{Jump}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Jump</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
-    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Jump" title="Jump" value="(@{Jump-ability} + @{Jump-ranks} + @{Jump-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Jump" title="Jump" value="((floor((@{Jump-ability})/2)) + @{Jump-ranks} + @{Jump-other})" disabled/></span>
     					<span class="sheet-table-data" style="width:5%;"><select name="attr_Jump-ability" title="Jump-ability">
                                         									<option value="(@{strength-total})" selected>Strength</option>
                                         									<option value="(@{Magic-total})">Magic</option>
@@ -1281,7 +1360,7 @@
     					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_Swim-Check" title="Swim-Check" value="@{who-skill} Swim check: [[@{die_type} + @{Swim}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Swim*</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
-    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Swim" title="Swim" value="(@{Swim-ability} + @{Swim-ranks} + @{Swim-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_Swim" title="Swim" value="((floor((@{Swim-ability})/2)) + @{Swim-ranks} + @{Swim-other})" disabled/></span>
     					<span class="sheet-table-data" style="width:5%;"><select name="attr_Swim-ability" title="Swim-ability">
                                         									<option value="(@{strength-total})" selected>Strength</option>
                                         									<option value="(@{Magic-total})">Magic</option>
@@ -1343,7 +1422,7 @@
     					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_UseRope-Check" title="UseRope-Check" value="@{who-skill} UseRope check: [[@{die_type} + @{UseRope}]]"></button></span>
     					<span class="sheet-table-data" style="width:75%;"><b>Use Rope</b></span>
                         <span class="sheet-table-data" style="width:5%;"><b>STR</b></span>
-    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseRope" title="UseRope" value="(@{UseRope-ability} + @{UseRope-ranks} + @{UseRope-other})" disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_UseRope" title="UseRope" value="((floor((@{UseRope-ability})/2)) + @{UseRope-ranks} + @{UseRope-other})" disabled/></span>
     					<span class="sheet-table-data" style="width:5%;"><select name="attr_UseRope-ability" title="UseRope-ability">
                                         									<option value="(@{strength-total})" selected>Strength</option>
                                         									<option value="(@{Magic-total})">Magic</option>
@@ -1365,7 +1444,22 @@
     				
     			</div>
     		</div>
+    		
     		<div style="border-style:solid;border-width:2px;">
+    		    <div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_LevelUPSkills-Check" title="LevelUPSkills-Check" value="@{who-skill} Gained [[@{die_type} + @{LevelUPSkills}]] skill points this Level"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Level Up Skills</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>/</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_LevelUPSkills" title="LevelUPSkills" value="(@{skillProficiency}+  @{LevelUPSkills-other})" hidden disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_LevelUPSkills-other" title="LevelUPSkills-other" value="0"/></span>
+    				</div>
+    		    <div class="sheet-table-row">
+    					<span class="sheet-table-data" style="width:5%;"><button type="roll" name="roll_LevelUPHP-Check" title="LevelUPHP-Check" value="@{who-skill} Gained [[@{HealthGain} + @{LevelUPHP}]] HP this Level"></button></span>
+    					<span class="sheet-table-data" style="width:75%;"><b>Level Up HP</b></span>
+                        <span class="sheet-table-data" style="width:5%;"><b>/</b></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_LevelUPHP" title="LevelUPHP" value="(@{LevelUPHP-other})" hidden disabled/></span>
+    					<span class="sheet-table-data" style="width:5%;"><input type="number" name="attr_LevelUPHP-other" title="LevelUPHP-other" value="0"/></span>
+    				</div>
     		    <div class="sheet-table-row">
 		            <span class="sheet-table-data"><b>Roll Target - Stats: </b></span>
 		            <span class="sheet-table-data">
@@ -1440,6 +1534,18 @@
     	<span class="sheet-table-data"><b>Weapons and Items</b></span>
 		<br>
 		<fieldset class="repeating_complication">
+		    <fieldset>
+    		    <span class="sheet-table-data"><input type="text" name="attr_quantity" title="repeating_complication_X_quantity" value="Quantity" disabled/></span>
+    		    <span class="sheet-table-data"><input type="text" name="attr_name1" title="repeating_complication_X_name" value="Name" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_rank1" title="repeating_complication_X_rank" value="Rank" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_Weight1" title="repeating_complication_X_Weight" value="Weight" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_Mightt1" title="repeating_complication_X_Might" value="Might" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_HitChance1" title="repeating_complication_X_HitChance" value="Hit Chance" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_CritChance1" title="repeating_complication_X_CritChance" value="Crit Chance" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_Range1" title="repeating_complication_X_Range" value="Range" disabled/></span>
+    			<span class="sheet-table-data"><input type="text" name="attr_WepExp1" title="repeating_complication_X_WepExp" value="Wep Exp" disabled/></span>
+			</fieldset>
+			<span class="sheet-table-data"><input type="text" name="attr_quantity" title="repeating_complication_X_quantity" value="Quantity"/></span>
 			<span class="sheet-table-data"><input type="text" name="attr_name" title="repeating_complication_X_name" value="Name"/></span>
 			<span class="sheet-table-data"><input type="text" name="attr_rank" title="repeating_complication_X_rank" value="Rank"/></span>
 			<span class="sheet-table-data"><input type="text" name="attr_Weight" title="repeating_complication_X_Weight" value="Weight"/></span>
