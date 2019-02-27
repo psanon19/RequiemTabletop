@@ -26,20 +26,24 @@
                 <option value="bovidea">Bovidea</option>
                 <option value="cervidae">Cervidae</option>
                 <option value="chthon">Chthon</option>
-                <option value="crag">Crag Dwellers</option>
+                <option value="crag">Cragdram</option>
+                <option value="crux">Crux</option>
                 <option value="dycuus">Dycuus</option>
                 <option value="etalin">E'talin</option>
                 <option value="felia">Felia</option>
-                <option value="halfOrc">Half-Orc</option>
+                <option value="gishling">Gishling</option>
+                <option value="halfgor">Half-Gor</option>
+                <option value="halflithid">Half-Lithid</option>
                 <option value="human">Human</option>
                 <option value="inuyakin">Inuyakin</option>
                 <option value="jrigori">Jrigori</option>
                 <option value="keikeiora">Keikeiora</option>
+                <option value="kitsune">Kitsune</option>
                 <option value="Lourka">Lourka</option>
                 <option value="mastodon">Mastodon</option>
                 <option value="nepherite">Nepherite</option>
-                <option value="nepherite">Nox</option>
-                <option value="nepherite">Ouud</option>
+                <option value="Nox">Nox</option>
+                <option value="Ouud">Ouud</option>
                 <option value="ruKiv">Ru'kiv</option>
                 <option value="seraphim">Seraphim</option>
                 <option value="sermata">Sermata</option>
@@ -49,6 +53,7 @@
                 <option value="ursaring">Ursaring</option>
                 <option value="verve">Verve</option>
                 <option value="xeith">Xeith</option>
+                <option value="Yaatra">Yaatra</option>
                 <option value="zryt">Zryt</option>
                 <option value="blank">  </option>
                 </span>
